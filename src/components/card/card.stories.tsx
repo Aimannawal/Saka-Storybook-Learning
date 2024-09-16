@@ -19,7 +19,6 @@ const meta: Meta<typeof Card> = {
     onClick: { action: "clicked" },
   },
   args: {
-    variant: "light",
     label: "Card",
     onClick: fn(),
   },
@@ -30,8 +29,7 @@ type Story = StoryObj<typeof Card>;
 
 export const Light: Story = {
   args: {
-    variant: "light",
-    title: 'Light Theme',
+    title: 'Halo',
     label: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.',
     onClick: () => {},
   },
